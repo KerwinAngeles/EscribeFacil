@@ -7,7 +7,7 @@ const axios = require("axios");
 dotenv.config();
 
 const app = express();
-app.use(cors({ origin: 'https://escribe-facil.vercel.app/' }));app.use(express.json());
+app.use(cors({ origin: 'https://escribe-facil.vercel.app' }));app.use(express.json());
 
 const API_URL = "https://text.pollinations.ai/";
 
